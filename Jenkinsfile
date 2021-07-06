@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
 
-                git 'https://github.com/ISTQB-Tester-Training/2021-07-CTAL-ATT-Online-Intern-StaticCodeaAnalysis-Showcase.git'
+                git 'https://github.com/ISTQB-Tester-Training/2021-07-CTAL-ATT-Online-Intern-StaticCodeAnalysis-Showcase.git'
 
                 sh "mvn compile"
             }
